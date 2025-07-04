@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .centrado {
+        text-align: center;
+    }
+
+    h1{
+
+
+        color: rgb(246, 246, 246);
+    }
+
+    .grande{
+        font-size: 1.4em;
+    }
+
+    main {
+        display: flex;    
+        flex-direction: column;
+    
+    }
+
+    .masgrande{
+        font-size: 1.5em;
+    }
+    body{
+        background-color: rgb(2, 2, 113);
+    }
+    p{
+        color: aliceblue;
+    }
+    h2{
+        color: aliceblue;
+    }
+    h3{
+        color: aliceblue;
+    }
+    h4{
+        color: aliceblue;
+    }
+    ul{
+        color: aliceblue;
+    }
+
+    th{
+        color: aliceblue;
+    }
+    h5{
+        color: aliceblue;
+    }
+    h6{
+        color: aliceblue;
+    }
+    .bordeada {
+  border-width: 5px; 
+  border-style: solid; 
+  border-color: rgb(22, 4, 160); 
+}
+.colores{
+    color: #00e0ff ;
+}
+    
+</style>
+
+</head>
+<body>
+    <header>
+        <nav class="grande">
+            <ul>
+                 <button style="background-color: #00e0ff; color: black; border-radius: 20px;"><li><a href="#ind">tecnico</a></li></button>
+
+            </ul>
+
+             <ul>
+                <button style="background-color: #00e0ff; color: black; border-radius: 20px;"><li><a href="#ond">proyectos</a></li></button>
+               
+            </ul>
+            
+            <ul>
+                    <button style="background-color: #00e0ff; color: black; border-radius: 20px;"><li><a href="#und">sobre mi</a></li></button>
+
+            </ul>
+            <ul>
+    <button style="background-color: #00e0ff; color: black; border-radius: 20px;"><li><a href="https://github.com/samuel259933/new-proyect" target="_blank">github</a></li></button>
+
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <h1><b> <i>Samuel David-Riwi</i> </b></h1>
+
+        <section id="und">
+            <h6 class="masgrande"><b><i>sobre mi!!</i></b></h6>
+            
+            <p class="grande"><b><i>hola, mi nombre es samuel y tengo 18 años</i></b></p>
+            <p class="grande"><b><i>me gusta mucho la desarrollacion de software </i></b></p>
+            <p class="grande"><b><i>me gustan los idiomas</i></b></p>
+    
+        </section>
+        
+        <img src="/img+/IMG-20250421-WA0033.jpg" class="bordeada" alt="samuel's photo" width="400">
+
+<br>
+<br>
+<br>
+
+        <table>
+            <tr>
+                <th class="masgrande"><b><i>habilidades tecnicas</i></b></th>
+            </tr>
+        </table>
+
+        <section id="ind">
+
+
+
+            <ul>
+            <li><b>HTML</b></li>
+            <li><b>CSS</b></li>
+            <li><b>JAVASCRIPT</b></li>
+            <li><b>PYTHON</b></li>
+            </ul>
+
+        </section>
+
+
+
+                <table>
+            <tr>
+                <th class="masgrande"><i><b> PROYECTOS</b></i></th>
+            </tr>
+        </table>
+        <section id="ond" >
+            <h3 id="1" class="grande"><i>mi proyecto 1: la creacion de este sitio web</i></h3>
+            <p><b>este es mi primer proyecto de un sitio web en html</b></p>
+            <img src="Captura desde 2025-07-04 10-33-42.png" alt="progamacion" width="800">
+            <br>
+            <h4 id="2" class="grande"><i><b>mi proyecto 2:estoy en la creacion de otro sitio web</b></i></h4>
+            <p> <b>en mi segundo sitio web estare implementado HTML,CSS y JAVASCRIPT </b> </p>
+
+
+            <h5 class="grande"><b><i>proyecto de python:</i></b></p>
+                <p><b><i>estos son algunos de mis proyectos en python</i></b></p>
+                <img src="Captura desde 2025-07-04 12-06-12.png" alt="python" width="800">
+                <br>
+                <p><b><i>*</i></b></p>
+                <br>
+                <img src="Captura desde 2025-07-04 12-07-15.png" alt="python" width="800">
+                <br>
+                <p><b><i>*</i></b></p>
+                <img src="Captura desde 2025-07-04 12-07-55.png" alt="python" width="800">
+
+        </section>
+
+
+
+        <section>
+                    <form action="/send" method="post">
+            <label for="nombre">nombre:</label>
+            <input type="text"id="nombre" name="nombre"required >
+
+                        <label for="email">email:</label>
+            <input type="text"id="email" name="email"required >
+
+            <label for="mensaje">mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            <input type="submit" value="enviar">
+
+
+
+        </section>
+
+
+
+
+    </main>
+   
+    </body>
+</html>
