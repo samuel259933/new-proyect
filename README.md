@@ -13,3 +13,4 @@ if(isNaN(edad)){
 } else {
     alert(`hola ${nombre}, eres mayor de edad. ¡preparate para grandes oportuninades en el mundo de la progamacion!`)
 }
+mi codigo es este y tiene una funcion basica que es para que el usuario ingrese su nombre y su edad y el progama le diga si es acto para las oportunidades y sino lo es le dira que siga aprendiendo en caso que sea menor de edad
